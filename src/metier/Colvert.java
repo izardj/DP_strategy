@@ -7,4 +7,10 @@ public class Colvert extends Canard {
 		System.out.println("Je suis un Colvert");
 	}
 
+	public Colvert() {
+		super();
+		comportementCanCan = new Cancan();
+		comportementVol = new VolerAvecDesAiles();
+	}
+
 }
